@@ -1,25 +1,23 @@
 # Core numerical & imaging
-numpy>=1.26
-pillow>=9.5
-opencv-python>=4.8
+numpy==2.1.2
+pillow==11.0.0
+opencv-python==4.12.0.88
 
 # OCR (requires external Tesseract executable installed on system)
 # On Windows, install Tesseract from: https://github.com/tesseract-ocr/tesseract
 # The code auto-detects it or use env var TESSERACT_CMD to point to the exe
-pytesseract>=0.3.10
+pytesseract==0.3.13
 
 # 3D geometry & rendering
-trimesh>=4.0
-pyrender>=0.1.45
-PyOpenGL
-pyglet>=2.0
+trimesh==4.7.4
+pyrender==0.1.45
+PyOpenGL==3.1.0
+pyglet==2.1.8
 
 # HuggingFace VLM pipeline
-transformers>=4.41
-huggingface-hub>=0.23
-safetensors>=0.4.3
+transformers==4.55.2
+huggingface-hub==0.34.4
+safetensors==0.6.2
 # Choose the appropriate Torch build for your system (CPU/CUDA). Example:
-#   pip install torch --index-url https://download.pytorch.org/whl/cu121  (CUDA 12.1)
-#   pip install torch  (CPU-only)
-torch
- 
+#   pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu128  (CUDA 12.8)
+#   pip3 install torch torchvision  (CPU-only)
