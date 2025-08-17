@@ -114,9 +114,3 @@ Các hàm liên quan:
 - **Thiếu mm/px**: Kiểm tra log inference để thấy `scale_x(mm/px)=...`. Có thể ép qua `run.sh -m <giá trị>` hoặc flag `--mm-per-px` khi chạy `render3d.py`.
 - **Torch/VLM nặng**: Nếu GPU không đủ, dùng bản Torch CPU và model nhỏ (mặc định `Qwen/Qwen2-VL-2B-Instruct`).
 
-## Giấy phép & Đóng góp
-- Mã nguồn theo license của kho (nếu chưa khai báo, mặc định là quyền tác giả). Đóng góp được chào đón qua pull request.
-
----
-
-Nếu bạn cần, hãy mở issue/trao đổi để mình hỗ trợ cấu hình môi trường, tối ưu OCR hoặc tinh chỉnh quy tắc lắp ráp trong `CabinetAssembler.build()`.
