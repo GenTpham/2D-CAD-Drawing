@@ -1,0 +1,45 @@
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache/bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Tools & IDE
+.vscode/
+.idea/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Project outputs (large, generated)
+output/
+# If you want to keep program.txt only, comment the line above and use:
+# output/runs/
+# output/logs/
+# output/ocr_debug/
+
+# Local cache
+.cache/
+
+# Environment files
+.env
+*.env
